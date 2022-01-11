@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap | Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap linkup -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+</head>
+<body>
+
+
+<!-------------------- Navbar Start ---------------------->
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fs-2" href="index.html" style="color: #4d4039;">Ninestars</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main_menu">
+        <ul class="navbar-nav ms-auto me-5">
+          <li><a class="nav-link active" href="#home" style="font-size: 17px;color: #4d4039;">Home</a></li>
+          <li><a class="nav-link active" href="#about" style="font-size: 17px;color: #4d4039;">About Us</a></li>
+          <li><a class="nav-link active" href="#service" style="font-size: 17px;color: #4d4039;">Service</a></li>
+          <li><a class="nav-link active" href="#portfolio" style="font-size: 17px;color: #4d4039;">Portfolio</a></li>
+          <li><a class="nav-link active" href="#team" style="font-size: 17px;color: #4d4039;">Team</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#" style="font-size: 17px;color: #4d4039;" >Drop Down</a>
+            <ul class="dropdown-menu  mt-3" aria-labelledby="dropdownMenuButton1">
+                <li><a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop Down 1</a></li>
+                <li><a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Deep Drop Down</a>
+                    <ul class="dropdown-menu  mt-3" aria-labelledby="dropdownMenuButton1">
+                       <li><a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Deep Drop Down 1</a></li>
+                       <li><a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Deep Drop Down 2</a></li>
+                       <li><a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Deep Drop Down 3</a></li>
+                       <li><a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Deep Drop Down 4</a></li>
+                       <li><a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Deep Drop Down 5</a></li>
+                     </ul>
+                </li>
+                <li><a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop Down 3</a></li>
+                <li><a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Drop Down 4</a></li>
+            </ul>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#contact" style="font-size: 17px;color: #4d4039;">Contact</a></li>
+        </ul>
+        <div class="get-start">
+            <a href="#about" class="btn rounded-pill text-light " style="background-color: #eb5d1e;font-size: 19px;width: 130px;padding: 2% 0;">Get Started</a>
+          </div>
+      </div>
+    </div>
+  </nav>
+<!-------------------- Navbar End ---------------------->
+
+
+
+
+<!-------------------- Home Section Start ---------------------->
+<section style="background-color: #fef8f5;">
+  <div class="container" id="home">
+    <div class="row min-vh-100 align-content-center align-items-center">
+      <div class="col-md-6">
+        <div class="home-text">
+            <img src="img/hero-img.svg" alt="" width="100%">
+        </div>
+      </div>
+      <div class="col-md-6 mt-5 order-md-first">
+        <h1 class="fs-1 fw-bold" style="color: #4d4039;">Better digital experience with Ninestars</h1>
+        <p class="fs-4 text-muted">We are team of talented designer making websited with Bootstrap</p>
+        <a href="#about" class="btn rounded text-light " style="background-color: #eb5d1e;font-size: 20px;width: 130px;">Get Started</a>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!-------------------- Home Section End ------------------------>
+
+
+
+
+<!-------------------- About Section Start ---------------------->
+
+<div class="container border-bottom" id="about">
+    <div class="row min-vh-100 align-content-center align-items-center">
+      <div class="col-md-6">
+        <div class="home-text">
+            <img src="img/about-img.svg" alt="" width="90%">
+        </div>
+      </div>
+      <div class="col-md-6 mt-5 ">
+        <h1 class="fs-2 fw-bold" style="color: #4d4039;">Valuptatem Dignissimos provident quasi</h1>
+        <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 order-md-first">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#eb5d1e" class="bi bi-journal-code   text-muted" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.646 5.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 8l1.647-1.646a.5.5 0 0 0 0-.708z"/>
+                    <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                    <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                  </svg>
+                <h1 class="fs-4 fw-bold text-muted" style="color: #4d4039;">Corporis voluptates sir</h1>
+                <p class="fs-6 text-muted">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              </div>
+              <div class="col-md-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#eb5d1e" class="bi bi-box" viewBox="0 0 16 16">
+                    <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
+                  </svg>
+                <h1 class="fs-4 fw-bold text-muted" style="color: #4d4039;">Ullamco laboris nisi</h1>
+                <p class="fs-6 text-muted">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<!-------------------- About Section End ------------------------>
+
+
+
+<!--------------------- Service Section strat ------------------->
+<section id="service" style="background-color: #fef8f5;"><br>
+<div class="container">
+  <div class="row">
+    <div class="col fs-2 text-center fw-bold text-muted">
+      Service
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col fs-1 text-center fw-bold" style="color: #4d4039">
+      Check out the great services we offer
+    </div>
+  </div>
+</div>
+<br><br><br>
+<div class="container">
+  <div class="row">
+
+    <div class="col mt-4 text-center ">
+      <div class="card" style="width: 19rem;height: 18rem;border-radius: 5%;">
+        <div class="card-body text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#eb5d1e" class="bi bi-dribbble" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 0C3.584 0 0 3.584 0 8s3.584 8 8 8c4.408 0 8-3.584 8-8s-3.592-8-8-8zm5.284 3.688a6.802 6.802 0 0 1 1.545 4.251c-.226-.043-2.482-.503-4.755-.217-.052-.112-.096-.234-.148-.355-.139-.33-.295-.668-.451-.99 2.516-1.023 3.662-2.498 3.81-2.69zM8 1.18c1.735 0 3.323.65 4.53 1.718-.122.174-1.155 1.553-3.584 2.464-1.12-2.056-2.36-3.74-2.551-4A6.95 6.95 0 0 1 8 1.18zm-2.907.642A43.123 43.123 0 0 1 7.627 5.77c-3.193.85-6.013.833-6.317.833a6.865 6.865 0 0 1 3.783-4.78zM1.163 8.01V7.8c.295.01 3.61.053 7.02-.971.199.381.381.772.555 1.162l-.27.078c-3.522 1.137-5.396 4.243-5.553 4.504a6.817 6.817 0 0 1-1.752-4.564zM8 14.837a6.785 6.785 0 0 1-4.19-1.44c.12-.252 1.509-2.924 5.361-4.269.018-.009.026-.009.044-.017a28.246 28.246 0 0 1 1.457 5.18A6.722 6.722 0 0 1 8 14.837zm3.81-1.171c-.07-.417-.435-2.412-1.328-4.868 2.143-.338 4.017.217 4.251.295a6.774 6.774 0 0 1-2.924 4.573z"/>
+          </svg>
+          <h1 class="fs-4 " style="padding-top: 30px;">Lorem Ipsum</h1>
+          <p class="fs-5 text-muted">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mt-4 text-center">
+      <div class="card" style="width: 19rem;height: 18rem;border-radius: 5%;">
+        <div class="card-body text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#eb5d1e" class="bi bi-file-earmark-text" viewBox="0 0 16 16">
+            <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+            <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+          </svg>
+          <h1 class="fs-4" style="padding-top: 30px;">Sed ut perspiciatis</h1>
+          <p class="fs-5 text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mt-4 text-center">
+      <div class="card" style="width: 19rem;height: 18rem;border-radius: 5%;">
+        <div class="card-body text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#eb5d1e" class="bi bi-speedometer2" viewBox="0 0 16 16">
+            <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+            <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+          </svg>
+          <h1 class="fs-4 " style="padding-top: 30px;">Magni Dolores</h1>
+          <p class="fs-5 text-muted">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mt-4 text-center">
+      <div class="card" style="width: 19rem;height: 18rem;border-radius: 5%;">
+        <div class="card-body text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#eb5d1e" class="bi bi-globe2" viewBox="0 0 16 16">
+            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z"/>
+          </svg>
+          <h1 class="fs-4" style="padding-top: 30px;">Nemo Enim</h1>
+            <p class="fs-5 text-muted">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col fs-2 text-center" style="color: #fef8f5">
+    Service
+  </div>
+</div>
+<div class="row">
+  <div class="col fs-2 text-center" style="color: #fef8f5">
+    Service
+  </div>
+</div>
+</div>
+</section>
+
+
+
+
+<!--------------------- Service Section End --------------------->
+
+
+
+
+<!--------------------- Portfolio Section Start ------------------->
+
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col fs-2 mt-5 text-center fw-bold text-muted">
+        Portfolio
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col fs-1 text-center fw-bold" style="color: #4d4039">
+        Check out our beautifull portfolio
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-links mb-4 mt-5">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div>
+          <a class="text-decoration-none fs-5 fw-bold" href="#" style="color: #eb5d1e;">All</a>
+          <a class="text-decoration-none fs-5 fw-bold ms-4" href="#" style="color: black;">App</a>
+          <a class="text-decoration-none fs-5 fw-bold ms-4" href="#" style="color: black;">Card</a>
+          <a class="text-decoration-none fs-5 fw-bold ms-4" href="#" style="color: black;">Web</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md mt-4 order-md-first"><img src="img/portfolio/portfolio-1.jpg" alt="" width="100%" height="100%" style="border-radius: 4%;"></div>
+      <div class="col-md mt-4"><img src="img/portfolio/portfolio-2.jpg" alt="" width="100%" height="100%" style="border-radius: 4%;"></div>
+      <div class="col-md mt-4"><img src="img/portfolio/portfolio-3.jpg" alt="" width="100%" height="100%" style="border-radius: 4%;"></div>
+    </div>
+  </div>
+  <div class="container mt-3">
+    <div class="row text-center">
+      <div class="col-md mt-4 order-md-first"><img src="img/portfolio/portfolio-4.jpg" alt="" width="100%" height="100%" style="border-radius: 4%;"></div>
+      <div class="col-md mt-4"><img src="img/portfolio/portfolio-5.jpg" alt="" width="100%" height="100%" style="border-radius: 4%;"></div>
+      <div class="col-md mt-4"><img src="img/portfolio/portfolio-6.jpg" alt="" width="100%" height="100%" style="border-radius: 4%;"></div>
+    </div>
+  </div>
+  <div class="container mt-3">
+    <div class="row text-center">
+      <div class="col-md mt-4 order-md-first"><img src="img/portfolio/portfolio-7.jpg" alt="" width="100%" height="100%" style="border-radius: 4%;"></div>
+      <div class="col-md mt-4"><img src="img/portfolio/portfolio-8.jpg" alt="" width="100%" height="100%" style="border-radius: 4%;"></div>
+      <div class="col-md mt-4"><img src="img/portfolio/portfolio-9.jpg" alt="" width="100%" height="100%" style="border-radius: 4%;"></div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+<!--------------------- Portfolio Section End --------------------->
+
+
+
+<!----------------------- FAQ Section Start ----------------------->
+
+<section class="mt-5"><br>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col fs-2 text-center fw-bold" style="opacity: 40%;color: #4d4039;">
+        F.A.Q
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col fs-1 text-center fw-bold" style="color: #4d4039">
+        Frequently Asked Questions
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mt-5">
+    <div class="row">
+
+      <div class="col">
+        <div class="accordion accordion-flush " id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <Span class="fs-4" style="font-weight: 500;">Non consectetur a erat nam at lectus urna duis?</Span>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body fs-5">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="col">
+        <div class="accordion accordion-flush " id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <Span class="fs-4" style="font-weight: 500;">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</Span>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body fs-5">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="col">
+        <div class="accordion accordion-flush " id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                <Span class="fs-4" style="font-weight: 500;">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</Span>
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body fs-5">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</div>
+            </div>
+
+
+            <div class="col">
+              <div class="accordion accordion-flush " id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <Span class="fs-4" style="font-weight: 500;">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</Span>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body fs-5">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</div>
+                  </div>
+
+
+                  <div class="col">
+                    <div class="accordion accordion-flush " id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <Span class="fs-4" style="font-weight: 500;">Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</Span>
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body fs-5">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</div>
+                        </div>
+
+
+                        <div class="col">
+                          <div class="accordion accordion-flush " id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                  <Span class="fs-4" style="font-weight: 500;">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</Span>
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body fs-5">Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.</div>
+                              </div>
+
+
+    </div>
+  </div>
+  </div>
+  
+  </section>
+<!---------------------- FAQ Section End --------------------------->
+
+
+
+<!---------------------- Team Section Start ------------------------>
+
+<section id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col fs-2 mt-5 text-center fw-bold text-muted">
+        Team
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col fs-1 text-center fw-bold" style="color: #4d4039">
+        Our team is always here to help
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <div class="row text-center">
+      <div class="col-md mt-4 order-md-first"><img src="img/team/team-1.jpg" alt="" width="100%" height="100%"></div>
+      <div class="col-md mt-4"><img src="img/team/team-2.jpg" alt="" width="100%" height="100%"></div>
+      <div class="col-md mt-4"><img src="img/team/team-3.jpg" alt="" width="100%" height="100%"></div>
+      <div class="col-md mt-4"><img src="img/team/team-4.jpg" alt="" width="100%" height="100%"></div>
+
+    </div>
+  </div>
+  
+  </div>
+  </section>
+
+<!---------------------- Team Section End ------------------------>
+
+
+
+<!---------------------- Clint Section Start --------------------->
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col fs-2 mt-5 text-center fw-bold text-muted">
+        Clients
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col fs-1 text-center fw-bold" style="color: #4d4039">
+        They trusted us
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <div class="row text-center">
+      <div class="col-md mt-4 order-md-first"><img src="img/clients/client-1.png" alt="" width="100%" height="100%"></div>
+      <div class="col-md mt-4"><img src="img/clients/client-2.png" alt="" width="90%" height="90%"></div>
+      <div class="col-md mt-4"><img src="img/clients/client-3.png" alt="" width="90%" height="90%"></div>
+      <div class="col-md mt-4"><img src="img/clients/client-4.png" alt="" width="90%" height="90%"></div>
+      <div class="col-md mt-4"><img src="img/clients/client-5.png" alt="" width="90%" height="90%"></div>
+      <div class="col-md mt-4"><img src="img/clients/client-6.png" alt="" width="90%" height="90%"></div>
+      <div class="col-md mt-4"><img src="img/clients/client-7.png" alt="" width="90%" height="90%"></div>
+      <div class="col-md mt-4"><img src="img/clients/client-8.png" alt="" width="90%" height="90%"></div>
+    </div>
+  </div>
+
+<!---------------------- Clint Section End ----------------------->
+
+
+
+
+
+<!---------------------- contact section start ---------------->
+<section class="contact py-4 bg-white h-100 mt-5" id="contact">
+  <div class="container-lg py-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h3 class="fw-bold text-muted">Contact Us</h3>
+          <h2 class="fw-bold mb-5 text-danger">Contact us the get started</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 border-bottom border-warning border-top border-4 me-auto">
+        <div class="contact-item d-flex mb-3">
+          <div class="icon fs-4 text-danger">
+            <i class="bi bi-map"></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Location</h3>
+            <p class="text-muted">A108 Adam Street, New York, NY 535022</p>
+          </div>
+        </div>
+        <div class="contact-item d-flex mb-3">
+          <div class="icon fs-4 text-danger">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Email</h3>
+            <p class="text-muted">info@example.com</p>
+          </div>
+        </div>
+        <div class="contact-item d-flex">
+          <div class="icon fs-4 text-danger">
+            <i class="bi bi-phone"></i>
+          </div>
+          <div class="text ms-3">
+            <h3 class="fs-5">Call</h3>
+            <p class="text-muted">+1 5589 55488 55</p>
+          </div>
+        </div>
+
+        <div class="map">
+          <map name="">
+            <iframe class="form-control" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7324.694824577034!2d91.0586566!3d23.375646000000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1641913202656!5m2!1sen!2sbd" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </map>
+        </div>
+      
+      </div>
+
+      <div class="col-md-7 border-bottom border-warning border-top border-4">
+        <div class="contact-form">
+          <form action="">
+            <div class="row">
+              <div class="col-lg-6">
+                <label for="">Your Name</label>
+                <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-1 shadow-sm mb-3" required>
+              </div>
+              <div class="col-lg-6">
+                <label for="">Your Email</label>
+                <input type="email" placeholder="Your Email" class="form-control form-control-lg fs-6 border-1 shadow-sm mb-3">
+              </div>
+              <div class="col-lg-12">
+                <label for="">Subject</label>
+                <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-1 shadow-sm mb-3" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <label for="">Message</label>
+                <textarea rows="10" placeholder="Your Message" class="form-control mb-3"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <button type="submit" class="btn px-3" style="color: white;background-color: #eb5d1e;">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ </section>
+<!---------------------- contact section End ---------------->
+
+
+
+
+ <!------------------ newsletter section start ----------------->
+ <section class="portfolio py-4 bg-light">
+  <div class="container-lg py-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h3 class="fw-bold text-muted text-danger">Join Our Newsletter</h3>
+          <p class="mb-5">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="search-bar">
+            <form action="" class="d-flex">
+              <input class="form-control shadow border-0" type="text" name="" id="">
+              <button class="btn" type="submit" style="background-color: #eb5d1e;color: white;" >Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!------------------ newsletter section End ----------------->
+
+
+
+
+
+<!------------------- footer section start ------------------>
+<footer class="footer py-4" id="social">
+  <div class="container-lg py-3">
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <dl>
+          <h3>Ninestars</h3>
+          <dd>A108 Adam Street</dd>
+          <dd>New York, NY 535022</dd>
+          <dd>United States</dd>
+        </dl>
+        <div class="footer-contact py-3">
+          <b>Phone:</b> +1 5589 55488 55 <br>
+          <b>Email:</b> info@example.com
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <ul class="list-group">
+          <h3>Useful Links</h3>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            Home</a></li>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            About Us</a></li>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            Services</a></li>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            Terms of service</a></li>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            Privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-3">
+        <ul class="list-group">
+          <h3>Our Services</h3>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            Web Design</a></li>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            Web Development</a></li>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            Product Management</a></li>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            Marketing</a></li>
+          <li class="list-unstyled mb-3"><i class="bi bi-chevron-right text-danger"></i><a class="text-decoration-none text-muted" href="#">
+            Graphic Design</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h3>Our Social Networks</h3>
+        <p class="text-muted">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+        <div class="icons fs-3 text-danger">
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-skype"></i>
+          <i class="bi bi-linkedin"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!------------------- footer section End ------------------>
+
+
+
+
+<!----------------- copyright section Start-------------->
+<section class="copyright py-4 bg-light">
+  <div class="container-lg py-3">
+    <p class="m-0 text-center text-muted">&copy;2021 By Mosfiqur Rahman Sakin</p>
+  </div>
+</section>
+
+<!----------------- copyright section End-------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Js linkup -->
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
